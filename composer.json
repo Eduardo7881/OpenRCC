@@ -1,0 +1,13 @@
+{
+  "name": "roblox-revival/rcc-php",
+  "description": "Backend PHP client for the 2016 Roblox RCCService SOAP interface",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Roblox\\RCC\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
