@@ -1,0 +1,15 @@
+{
+  "name": "roblox-rcc-revival",
+  "version": "1.0.0",
+  "description": "Backend Node.js client for the 2016 Roblox RCCService SOAP API",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./rcc": "./src/RCCService.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.0"
+  }
+}
